@@ -1,0 +1,23 @@
+1️. How does K-Means clustering work?
+It groups data into K clusters by minimizing the distance between points and their nearest cluster centroids.
+
+2️. What is the Elbow method?
+It helps find the optimal number of clusters (K) by plotting inertia vs K and choosing the point where inertia reduction slows down.
+
+3️. What are the limitations of K-Means?
+It’s sensitive to outliers, assumes spherical clusters, and struggles with categorical data.
+
+4️. How does initialization affect results?
+Poor centroid initialization can lead to wrong or unstable clusters; using k-means++ improves this.
+
+5️. What is inertia in K-Means?
+It’s the sum of squared distances between each point and its assigned cluster centroid.
+
+6️. What is Silhouette Score?
+It measures how well-separated and cohesive clusters are; higher values mean better-defined clusters.
+
+7️. How do you choose the right number of clusters?
+Use the Elbow Method, Silhouette Score, or Gap Statistic to determine optimal K.
+
+8️. What’s the difference between clustering and classification?
+Clustering is unsupervised (no labels), while classification is supervised (uses labeled data).
