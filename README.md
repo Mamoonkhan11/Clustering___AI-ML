@@ -45,8 +45,11 @@ behavior and income levels.
 ## ⚙️ How to Run
 
 ### 1. Clone the Project or download .zip
+
+``` bash
 git clone https://github.com/Mamoonkhan11/Clustering___AI-ML
 cd Clustering__AI-ML
+```
 
 
 ### 2. Setup Environment
