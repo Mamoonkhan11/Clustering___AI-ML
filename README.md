@@ -27,9 +27,8 @@ behavior and income levels.
     │   └── silhouette_score.txt            
     │
     ├── requirements.txt                    
-    └── main.py                             
+    └── main.py              # Optional Mall_Customers.ipynb Notebook for Testing and Evaluation               
 
-Optional Mall_Customers.ipynb  # Notebook for Testing and Evaluation
 ------------------------------------------------------------------------
 
 ## 📊 Dataset Description
