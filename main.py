@@ -6,10 +6,10 @@ from src.evaluate import Evaluate_KMeans
 from src.utils import Plot_elbow, Plot_clusters
 
 def main():
-    print("Loading Mall Customers dataset...\n")
+    print("\n Loading Mall Customers dataset...\n")
     X, X_scaled = Load_data("Data/Mall_Customers.csv")
 
-    print("Finding optimal number of clusters using Elbow Method...\n")
+    print("\n Finding optimal number of clusters using Elbow Method...\n")
     Plot_elbow(X_scaled, max_k=10, out_path="Outputs/elbow_method.png")
 
     print("Training K-Means model with K=5...\n")
