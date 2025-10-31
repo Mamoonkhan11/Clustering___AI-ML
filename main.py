@@ -10,7 +10,7 @@ def main():
     X, X_scaled = Load_data("Data/Mall_Customers.csv")
 
     print("Finding optimal number of clusters using Elbow Method...\n")
-    Plot_elbow(X_scaled, max_k=10, out_path="outputs/elbow_method.png")
+    Plot_elbow(X_scaled, max_k=10, out_path="Outputs/elbow_method.png")
 
     print("Training K-Means model with K=5...\n")
     model = Train_KMeans(X_scaled, n_clusters=5)
@@ -19,7 +19,7 @@ def main():
     Evaluate_KMeans(model, X_scaled)
 
     print("Visualizing clusters...\n")
-    Plot_clusters(X, model, out_path="outputs/clusters_visualization.png")
+    Plot_clusters(X, model, out_path="Outputs/clusters_visualization.png")
 
     print("Clustering complete! Check 'outputs/' folder for results.\n")
 

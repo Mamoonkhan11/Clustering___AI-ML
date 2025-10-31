@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
 
-def Plot_elbow(X_scaled, max_k=10, out_path="outputs/elbow_method.png"):
+def Plot_elbow(X_scaled, max_k=10, out_path="Outputs/elbow_method.png"):
     inertias = []
     K_values = range(1, max_k + 1)
     for k in K_values:
@@ -22,7 +22,7 @@ def Plot_elbow(X_scaled, max_k=10, out_path="outputs/elbow_method.png"):
     plt.close()
 
 
-def Plot_clusters(X, model, out_path="outputs/clusters_visualization.png"):
+def Plot_clusters(X, model, out_path="Outputs/clusters_visualization.png"):
     plt.figure(figsize=(8, 6))
     sns.scatterplot(
         x=X["Annual Income (k$)"],
