@@ -1,4 +1,4 @@
-# 🧠 Task 8: K-Means Clustering -- Mall Customers Segmentation
+#  Task 8: K-Means Clustering -- Mall Customers Segmentation
 
 ## 🎯 Objective
 
@@ -16,8 +16,8 @@ behavior and income levels.
     │   └── data.csv             
     │
     ├── src/
-    │   ├── data_loader.py                  
-    │   ├── model.py                        
+    │   ├── Load__data.py                  
+    │   ├── models.py                        
     │   ├── evaluate.py                     
     │   └── utils.py                        
     │
